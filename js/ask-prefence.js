@@ -6,7 +6,7 @@ if(toiletQty === 'one'){
 } else if (toiletQty === 'two'){
     response = 'two is always better than one';
 } else {
-    response = 'you must choose one or two';
+    response = 'you chose poorly';
 }
 
 document.write('<h3>' + response + '</h3>');
