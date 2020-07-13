@@ -1,4 +1,3 @@
-//insert js starting on Duckett JS &jQuery here - from pg 46
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
