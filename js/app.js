@@ -16,20 +16,20 @@ function addGreeting() {
 
     function addUsername() {
     var name = prompt('What is your name ?');
-    var message = 'Hello,  ' + name;
-    {
+    var message = 'Hello,  ' + name; 
+
     return document.write('<h3>' + message + '</h3>');
 
-    function askPrefence() {
+    function addPrefence() {
     var toiletQty = prompt('Do you have one or two toilets?');
     var response;
-
-     if (toiletQty === 'one') {
+    if (toiletQty === 'one') 
+    {
         response = 'Would you like to learn about The Crapper?';
     } else if (toiletQty === 'two') {
         response = 'Two is always better than one';
     } else 
         response = 'YOU CHOSE POORLY !'; 
     {
-    return document.write('<h3>' + response + '</h3>'); 
+    return document.write('<h3>' + response + '</h3>');
 }
