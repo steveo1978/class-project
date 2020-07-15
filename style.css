@@ -1,20 +1,35 @@
 body {
-  margin: 0px;
+  margin: 5px auto;
   width: 960px;
 }
 
 
 header {
-    margin: 0px auto;
-    width: 960px;
-    background-color: tan;
+  display: inline-block;
+  width: 100px;
+  border: 1px saddlebrown;
+  background-color: tan;
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 30px;
+  padding: 5px;
+  margin-left: 5px;
+    margin: 5px auto;
+    width: 860px;
+    background-color: rgb(133, 80, 11);
+    text-align: center;
     height: 190px;
   }
 
-main {}
 
 img {
-  margin: 5px;
-  width: 800;
-  height: 150px;
+  margin: 0px;
+  width: 960;
+  height: 0px;
 } 
+
+img {
+  margin: 500px;
+  width: 500px;
+  height: 450px;
+}
